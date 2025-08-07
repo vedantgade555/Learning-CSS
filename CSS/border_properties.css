@@ -1,5 +1,8 @@
 .b_prop1{
-    border: 6px dotted violet;
+    border: 6px solid violet;
+    /* border-radius: 30px; */
+    border-radius: 60px 0 60px 0;
+    border-color: red green red green;
 }
 .b_prop2{
     border: 4px solid black;
