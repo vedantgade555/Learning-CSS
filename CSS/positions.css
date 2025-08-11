@@ -1,0 +1,46 @@
+.box{
+    width: 250px;
+    height: 100px;
+    background-color: violet;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box1{
+    position: static;
+    /* left: 300px; */
+    /* left will not be used with static */
+    /* static is default position */
+}
+
+.box2{
+    position: relative;
+    left: 300px;
+    top: 20px;
+   
+}
+
+.box3{
+    /* Absolute will check its parents works according to its parent */
+    /* they will folow all properties according to its paent */
+
+    position: absolute;
+    left: 500px;
+    top: 20px;
+
+}
+
+.box4{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+.box5{
+    position: sticky;
+    top: 10px;
+
+    /* at the time of scrollinf this will stick at top  */
+}
+

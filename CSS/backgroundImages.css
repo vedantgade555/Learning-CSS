@@ -1,0 +1,19 @@
+body{
+    background-image: url("/Images/banner-5200272_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+    padding-left: 50px;
+    color: white;
+
+}
+
+.text{
+    color: aliceblue;
+    padding-top: 163px;
+}
