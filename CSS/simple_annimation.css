@@ -1,0 +1,56 @@
+.simple-annimation{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    animation: myFirstAnimation;
+    -webkit-animation: myFirstAnimation;
+    /* Due to this we are run our annimation any device */
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /* animation-delay: 10s; */
+    /* Due to delay our animation will staret after 10second */
+}
+
+@keyframes myFirstAnimation{
+    0%{
+        background-color:yellow;
+        left:0px;
+        top:0px;
+    }  
+
+    25%{
+        background-color:red;
+        left:300px;
+        top:0px;
+    }
+
+    50%{
+        background-color:blueviolet;
+        left:300px;
+        top:300px;
+    }
+    75%{
+        background-color:green;
+        left:0px;
+        top:300px;
+    }
+    100%{
+        background-color:yellow;
+        left:0px;
+        top:0px;
+    }
+}
+
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
