@@ -5,7 +5,7 @@
     letter-spacing: 4px;
     font-weight: 900;
     perspective: 100px;
-    /* Used at the tilting timg tilting  */
+    /* Used at the the time of tilting tilting tilting  */
 }
 
 .text-container>b{
@@ -46,3 +46,32 @@
     60% ,to{transform: rotateX(-85deg);}
 }
 
+
+/* img{
+    height: 300px;
+    width: 200px;
+} */
+
+.swing{
+    display: flex;
+    justify-content: center;
+
+    animation: swing 1s ease-in-out infinite;
+    transform-origin: top center;
+    position: relative;
+}
+
+.swing img{
+    width: 400px;
+    border: 5px solid blueviolet;
+    box-shadow: 5px 5px 20px black;
+}  
+
+@keyframes swing{
+    0%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
